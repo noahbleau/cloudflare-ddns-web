@@ -1,10 +1,9 @@
-# 🌟 Cloudflare DDNS
+# 🌟 Cloudflare DDNS w/ Web Interface
 
-[![Github Source](https://img.shields.io/badge/source-github-orange)](https://github.com/favonia/cloudflare-ddns)
-[![Codecov](https://img.shields.io/codecov/c/gh/favonia/cloudflare-ddns)](https://app.codecov.io/gh/favonia/cloudflare-ddns)
-[![Docker Image Size](https://img.shields.io/docker/image-size/favonia/cloudflare-ddns/latest)](https://hub.docker.com/r/favonia/cloudflare-ddns)
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/6680/badge)](https://www.bestpractices.dev/en/projects/6680/passing)
-[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/favonia/cloudflare-ddns?label=openssf+scorecard)](https://securityscorecards.dev/viewer/?uri=github.com/favonia/cloudflare-ddns)
+> [!IMPORTANT]
+> 🚨 **This project is an extension of [favonia/cloudflare-ddns](https://github.com/favonia/cloudflare-ddns)** 🚨 <br>
+> This repository focuses exclusively on providing a clean, intuitive web interface to manage your configuration. <br>
+> *Please note: If you encounter issues unrelated to the web UI itself, they should be reported or may be forwarded to the original repository.*
 
 A feature-rich and robust Cloudflare DDNS updater with a small Docker image. It detects your machine’s public IP addresses and updates DNS records through the Cloudflare API.
 
@@ -712,7 +711,10 @@ Since [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflar
 
 ## 💖 Feedback
 
-Questions, suggestions, feature requests, and contributions are all welcome! Feel free to [open a GitHub issue](https://github.com/favonia/cloudflare-ddns/issues/new/choose).
+Questions, suggestions, feature requests, and contributions are all welcome! 
+
+* **For the Web Interface:** Feel free to [open an issue on this repository](https://github.com/noahbleau/cloudflare-ddns-web/issues/new/choose).
+* **For the Core DDNS functionality:** Please visit the [original repository](https://github.com/favonia/cloudflare-ddns/issues/new/choose).
 
 ## 📜 License
 
